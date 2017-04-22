@@ -12,25 +12,23 @@
 
 ##Steps for hosting
 
-###Prerequisites a) You should have a google developer API access. Update server.js file with API key in line 11.
+###Prerequisites a) You should have a google developer API access. Update server_original.js file with API key in line 11.
 
-b)You should have a PubNub account .Update the PubNub publish and subscribe key in server.js line 20,21 & in config.js, Line 1 & 2
+b)You should have a PubNub account .Update the PubNub publish and subscribe key in server_original.js line 20,21 & in config_original.js, Line 1 & 2
 
-c) You should have a API key for http://openweathermap.org/ and update that in server.js in line 13
+c) You should have a API key for http://openweathermap.org/ and update that in server_original.js in line 13
 
-d) You should have a Mapbox api account and place the api key in config.js , Line 3.
+d) You should have a Mapbox api account and place the api key in config_original.js , Line 3.
 
 e) You must have Node.js installed on the server where the application will be installed.
 
 ###Steps for installing application server
 
-   Change directory to weather-infographic : 'cd weather-infographic'
-
-    Configure the server.js and config.js with the api keys as per the prerequisite section above
+    Change directory to weather-infographic : 'cd weather-infographic'
 
     Run the npm package install command to install all dependencies : 'npm install'
 
-    Start the server : 'node server.js'. Optionally, you can run the server under forever to ensure continuous operation.
+    Start the server : 'node server_original.js'. Optionally, you can run the server under forever to ensure continuous operation.
 
 ##Working
 
