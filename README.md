@@ -2,6 +2,7 @@
 #
 
 ##Introduction This project is an attempt to 
+
 (1) Visualize green energy information around the world by real-time way. It is a basic infographic dashboard which is data driven and supports user interactivity. It captures weather data from openweathermap.org and visualizes potential green power  based on weather conditions with a simple interface on top of world map.
 
 (2) Leverage techniques and frameworks taught in the course: down sampling, context, form and D3, respectively.
